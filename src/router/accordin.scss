@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Conatainer-accordin {
+    width: 100%;
+    margin: auto;
+
+    .row-accord {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .col-accord {
+            width: 90%;
+
+        }
+    }
+}
+.accord-btn {
+    color: #000 !important;
+}
+
+.Compare {
+    background: #fc1414 !important;
+    margin: 20px 0 !important;   
+}

@@ -1,0 +1,175 @@
+
+.home{
+   background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+   height: 400px;
+   width: 100%;
+}
+.home{
+   position: relative;
+    .home-content{
+        h1{
+            position: absolute;
+            bottom: 30%;
+            left: 40%;
+            color:white;
+            font-weight: 500;
+            font-size: 30px;
+        }
+        .home-all{
+            width: 50%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            position: absolute;
+            bottom: 15%;
+            left: 25%;
+            .new{
+                width: 10%;
+                padding: 9px;
+                background-color: #e1e1e1;
+                p{
+                    font-size: 13px;    
+                }
+            }
+            .search-icon{
+                width: 10%;
+                padding: 5px;
+                display:flex;
+                justify-content:center ;
+                align-items: center;
+            }
+            .home-search{
+                width: 70%;
+                input{
+                    width: 100%;
+                    border:none !important;
+                    padding: 5px;
+                }
+                textarea:focus, input:focus{
+                    outline: none;
+                }
+            }
+            .button-move{
+                width: 25%;
+                margin-left:20rem;
+                
+                button{
+                    padding: 8px 23px;
+                    font-weight: bold;
+                    background-color: #e53012;
+                    border: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+@media(min-width:320px){
+    h1{
+           
+            color:white;
+            font-weight: 300;
+            font-size: 20px !important;
+            bottom: 30%;
+            left: 20% !important;
+        }
+    .home-all{
+            width: 90% !important;
+            margin: auto;
+            display: flex;
+            bottom: 15%;
+            left:5% !important;
+
+    }
+                .button-move{
+                    display: none;
+                }
+             .new{
+                width: 10%;
+                background-color: #e1e1e1;
+                p{
+                    font-size: 8px !important;    
+                }
+            }
+             .home-search{
+                width: 100% !important;
+                input{
+                    width: 100%  !important;
+                    border:none !important;
+                    //padding: 15px !important;
+                }
+                textarea:focus, input:focus{
+                    outline: none;
+                }
+            }
+}
+@media(min-width:1020px){
+    .home{
+   position: relative;
+    .home-content{
+        h1{
+            position: absolute;
+            bottom: 30% !important;
+            left: 40% !important;
+            color:white;
+            font-weight: 500 !important;
+            font-size: 30px !important;
+        }
+        .home-all{
+            width: 50% !important;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            position: absolute;
+            bottom: 15% !important;
+            left: 25% !important;
+            .new{
+                width: 10% !important;
+                padding: 9px !important;
+                background-color: #e1e1e1;
+                p{
+                    font-size: 13px !important;    
+                }
+            }
+            .search-icon{
+                width: 10% !important;
+                padding: 5px !important;
+                display:flex;
+                justify-content:center ;
+                align-items: center;
+            }
+            .home-search{
+                width: 70% !important;
+                input{
+                    width: 100% !important;
+                    border:none !important;
+                    padding: 5px !important;
+                }
+                textarea:focus, input:focus{
+                    outline: none;
+                }
+            }
+            .button-move{
+                display: flex !important;
+                width: 25% !important;
+                margin-left:20rem !important;
+                
+                button{
+                    padding: 8px 23px;
+                    font-weight: bold;
+                    background-color: #e53012;
+                    border: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+}

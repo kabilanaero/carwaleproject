@@ -1,0 +1,114 @@
+.feat-sec{
+    margin: 20px 0;
+}
+
+.feat-container {
+    width: 80%;
+    margin: auto;
+
+    .feat-head{
+        font-size: 25px !important;
+       font-weight:600;
+        color:#484848;
+    }
+    .feat-head1 {
+        margin: 20px 0;
+        display: flex;
+       
+        .one1{
+            padding:0 10px ;
+            color:#00afa0;
+            font-size: 19px;
+            position: relative;
+        }
+        .one1::after{
+            content: "";
+            position: absolute;
+            width:90px;
+            height: 2px;
+            left:10px;
+            bottom: -8px;
+            background-color: #00afa0;
+        }
+        
+        .one{
+            padding:0 10px ;
+            font-size: 18px;
+        }
+
+        .css-1a4cg4j-MuiButtonBase-root-MuiTab-root.Mui-selected {
+            color: #00afa0 !important;
+        }
+
+        .css-11yukd5-MuiTabs-indicator {
+            background-color: #00afa0 !important;
+        }
+    }
+
+    .feat {
+        margin: 50px 0;
+
+        .feat1 {
+            padding: 0 10px;
+            
+ 
+            .css-h93ljk-MuiTypography-root {
+                font-size: 20px !important;
+            }
+
+            .button-outlined {
+                padding: 20px 0 0 0;
+            }
+
+            .css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+                border: 1px solid #00afa0 !important;
+                padding: 8px 15px;
+                color: #00afa0 !important;
+            }
+        }
+    }
+
+    .slick-prev:before {
+        color: black !important;
+        font-size: 20px !important;
+    }
+
+    .slick-next:before {
+        color: black !important;
+        font-size: 20px !important;
+    }
+
+    .slick-next {
+        right: 0px !important;
+    }
+
+    .slick-prev {
+        left: -6px !important;
+        z-index: 6;
+    }
+}
+.content{
+    background-color: #f7f5f5;
+   .card-title {
+      color: #484848;
+    }
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    background-color:white !important ;
+    color:#00afa0 !important ;
+    border: 1px solid #00afa0 !important;
+    margin-top: 10px;
+}
+.feat-card{
+    border:2px solid #c2c1c1 !important ;
+}
+}
+@media(min-width:320px){
+    .feat-head1 {
+        display: none !important;
+    }
+}
+@media(min-width:1020px){
+    .feat-head1 {
+        display:flex !important;
+    }
+}

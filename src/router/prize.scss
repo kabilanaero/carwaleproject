@@ -1,0 +1,113 @@
+.prize {
+    margin: 40px 0;
+}
+
+.Container-prize {
+    width: 80%;
+    margin: auto;
+    h2{
+        color:#484848;
+        padding-bottom: 10px;
+    }
+    .prize-para{
+        display:flex;
+        padding-bottom: 10px;
+        .p-one{
+            padding:0 10px !important;
+            font-size: 18px;
+            color:  #00afa0 !important;
+            position: relative;
+
+        }
+        .p-one::after{
+            content: "";
+            position: absolute;
+            width:90px;
+            height: 2px;
+            left:10px;
+            bottom: -8px;
+            background-color: #00afa0;
+        }
+        p{
+        padding:0 10px ;
+        font-size: 18px;
+        color: #b5b5b5;
+       
+        }
+    }
+
+    .row-prize {
+        display: flex;
+        flex-wrap: wrap;
+        border: 2px solid  #b5b5b5;
+        padding: 30px;
+        background-color: #e8e6e6;
+    .col-prize{
+        width:20%;
+        padding-bottom: 20px;
+        button{
+            padding: 15px;
+            border-radius: 20px;
+            background: #fff;
+            color: #b5b5b5;
+            border: 1px solid #b5b5b5;
+
+        }
+        button:hover{
+            color:#00afa0;
+            border: 1px solid #00afa0;
+            cursor: pointer;
+        }
+    }
+}
+
+}
+@media(min-width:320px){
+    .Container-prize {
+        width: 100%;
+    }
+    .prize-para{
+        display:none !important;
+    }
+    .row-prize {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-prize{
+        width:50% !important;
+    }
+}
+@media(min-width:720px){
+    .Container-prize {
+        width: 80%;
+        margin: auto;
+    }
+    .prize-para{
+        display:flex !important;
+    }
+    .row-prize {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-prize{
+        width:33.3% !important;
+    }
+}
+@media(min-width:1020px){
+    .Container-prize {
+        width: 80%;
+        margin: auto;
+    }
+    .prize-para{
+        display:flex !important;
+    }
+    .row-prize {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-prize{
+        width:20% !important;
+    }
+}
+       
+       

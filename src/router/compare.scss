@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-two {
+    width: 80%;
+    margin: auto;
+    .c-title{
+        color:#3d3c3c;
+        font-size: 25px;
+    }
+    .row-two {
+        display: flex;
+        //justify-content: space-around;
+        //align-items: center;
+
+        .col {
+            width: 50%;
+            padding: 20px;
+
+        .card-com{
+           
+            box-shadow:0 0 2px 1px rgb(188, 190, 192)  ;
+        }
+            .image {
+                margin :auto;
+            }
+
+            .image img {
+                max-width: 100%;
+            }
+            .content{
+                background-color: rgb(237, 238, 240);
+            }
+
+            .content h3,
+            p {
+                padding: 10px;
+            }
+        }
+    }
+    .static-nav {
+        .css-1a4cg4j-MuiButtonBase-root-MuiTab-root.Mui-selected {
+            color: #00afa0;
+        }
+        .css-11yukd5-MuiTabs-indicator  {
+            background: #00afa0;
+        }
+    }
+    .btn-offer {
+        border: 1px solid rgba(25, 118, 210, 0.5) !important;
+        color: #00afa0 !important;
+        background-color: #fff;
+        margin:10px;
+    }
+    .c-title{
+        font-size: 20px;
+        color: #00afa0;
+    }
+
+
+
+    .table {
+        .head {
+            margin: 15px 0;
+        }
+        .row {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .col {
+
+                table {
+                    text-align: left;
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                
+                    tr {
+                        display: inline-flex;
+                        flex-direction: column;
+                    }
+
+                    th,
+                    td {
+                        border: 1px solid #868282b4;
+                        padding: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+.container-dialog {
+    width: 80%;
+    margin: auto;
+    .c-title{
+        color:#3d3c3c;
+        font-size: 25px;
+    }
+    .row-dialog {
+        display: flex;
+         justify-content: center;
+         align-items: center;
+        .Car-One {
+            width: 50%;
+            display: flex;
+             justify-content: center;
+             align-items: center;
+            div {
+
+                padding: 20px 0;
+            }
+        }
+    }
+    .btn-compare {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        margin: 20px 0;
+        .btn {
+            background: #f33 !important;  
+        }
+                
+    }
+}
+
+@media(min-width:320px){
+    .container-dialog {
+        width: 90% !important;
+        margin: auto;
+    }
+    .row-dialog {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Car-One {
+        width: 100% !important;
+    }
+    .container-two {
+        width: 90%;
+        margin: auto;
+    }    
+    .row-two {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col {
+        width: 100% !important;
+    }
+}
+@media(min-width:720px){
+    .container-dialog {
+        width: 80% !important;
+    }
+    .row-dialog {
+        display: flex;
+        flex-wrap: nowrap !important;
+    }
+    .Car-One {
+        width: 50% !important;
+    }
+    .container-two {
+        width: 90%;
+        margin: auto;
+    }    
+    .row-two {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col {
+        width: 100% !important;
+    }
+}
+@media(min-width:1020px){
+    .container-dialog {
+        width: 80% !important;
+    }
+    .row-dialog {
+        display: flex;
+    }
+    .Car-One {
+        width: 50% !important;
+    }
+    .container-two {
+        width: 80%;
+        margin: auto;
+    }    
+    .row-two {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .col {
+        width: 50% !important;
+    }
+}
